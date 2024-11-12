@@ -1,0 +1,448 @@
+.hero {
+  width: auto;
+  height: auto;
+  background-color: beige;
+}
+
+.main-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-heading {
+    font-size: 80px;
+  }
+}
+
+.about {
+  background-color: beige;
+  border: 2px solid gray;
+  margin-top: 150px;
+}
+
+.about-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.about-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.about-para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(80, 75, 75);
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin-bottom:30px ;
+  }
+
+  .about-heading {
+    font-size: 35px;
+  }
+
+  .about-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-self: center;
+  }
+
+  .about-para {
+    font-size: 15px;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    margin-top: 250px;
+  }
+
+  .about-heading {
+    font-size: 60px;
+  }
+
+  .about-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .about-para {
+    font-size: 30px;
+  }
+}
+
+.education {
+  background-color: beige;
+  border: 2px solid gray;
+  margin-top: 150px;
+}
+
+.education-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.education-content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: rgb(80, 75, 75);
+}
+
+@media screen and (max-width: 768px) {
+  .education {
+    margin-top: 0%;
+    margin-bottom:30px ;
+  }
+
+  .education-heading {
+    font-size: 35px;
+  }
+
+  .education-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .education {
+    margin-top: 300px;
+  }
+
+  .education-heading {
+    font-size: 60px;
+  }
+
+  .education-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.skills {
+  background-color: beige;
+  border: 2px solid gray;
+  margin-top: 150px;
+}
+
+.skills-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.skills-content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: rgb(80, 75, 75);
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    margin-top: 0%;
+    margin-bottom:30px ;
+  }
+
+  .skills-heading {
+    font-size: 35px;
+  }
+
+  .skills-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .skills {
+    margin-top: 300px;
+  }
+
+  .skills-heading {
+    font-size: 60px;
+  }
+
+  .skills-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.projects {
+  background-color: beige;
+  border: 2px solid gray;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.project-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.project-content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: rgb(80, 75, 75);
+}
+
+.clickable:hover {
+  color: brown;
+}
+
+@media screen and  (max-width: 768px) {
+  .projects {
+    margin-top: 0%;
+    margin-bottom:30px ;
+    margin-left:auto ;
+    margin-right: auto;
+    background-color: beige;
+  }
+
+  .project-heading {
+    font-size: 35px;
+  }
+
+  .project-content {
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+  }
+}
+
+@media screen and  (max-width:1024px) {
+  .projects {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+  }
+
+  .project-heading {
+    font-size: 60px;
+  }
+
+  .project-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.websites {
+  background-color: beige;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.web-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .websites {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: beige;
+  }
+}
+
+@media screen and  (max-width:1024px) {
+  .websites {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+  }
+}
+
+.contact {
+  background-color: beige;
+  border: 2px solid gray;
+  border-style: dashed;
+  margin-top: 30px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.contact-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.phone {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: rgb(80, 75, 75);
+}
+
+.email {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: rgb(80, 75, 75);
+}
+
+@media screen and  (max-width: 768px) {
+  .contact {
+    margin-top: 0px;
+    margin-bottom:20px ;
+    margin-left:0%;
+    margin-right:0%;
+    background-color: beige;
+    justify-content: center;
+  }
+
+  .contact-heading {
+    font-size: 35px;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+
+  .phone {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    margin-top: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+  }
+}
+
+.navbar {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.list-1 {
+  border: 2px solid black;
+  border-radius: 100px;
+  border-width: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+}
+
+.list-2 {
+  border: 2px solid black;
+  border-radius: 100px;
+  border-width: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+}
+
+.list-3 {
+  border: 2px solid black;
+  border-radius: 100px;
+  border-width: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+}
+
+.list-4 {
+  border: 2px solid black;
+  border-radius: 100px;
+  border-width: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+}
+
+.list-5 {
+  border: 2px solid black;
+  border-radius: 100px;
+  border-width: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .list-1, .list-2, .list-3, .list-4, .list-5 {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size:50px; 
+    justify-self: center;
+}
+}
+
+@media screen and  (max-width: 1024px) {
+  .navbar {
+    font-size: 60px;
+  }
+
+  .list-1 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .list-2 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .list-3 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .list-4 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .list-5 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+.copyright p {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
